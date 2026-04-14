@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pohela Boishakh Poster</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500;700;800&display=swap" rel="stylesheet">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Hind Siliguri', sans-serif;
+}
+
+body{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background: linear-gradient(135deg,#ff9a44,#ff512f,#2c2c2c);
+}
+
+/* container */
+.container{
+  width:90%;
+  max-width:850px;
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(12px);
+  border-radius:20px;
+  padding:25px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+  border:1px solid rgba(255,255,255,0.2);
+}
+
+/* title (clean readable) */
+.title{
+  text-align:center;
+  font-size:28px;
+  font-weight:800;
+  margin-bottom:20px;
+  color:#ffffff;
+
+  text-shadow:
+    0px 2px 0px #000,
+    0px 4px 8px rgba(0,0,0,0.6);
+
+  background: rgba(0,0,0,0.15);
+  display:inline-block;
+  padding:10px 18px;
+  border-radius:12px;
+}
+
+/* box */
+.box{
+  background: rgba(255,255,255,0.95);
+  padding:18px;
+  border-radius:15px;
+  height:260px;
+  overflow:auto;
+  font-size:14px;
+  line-height:1.6;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* button */
+button{
+  margin-top:15px;
+  width:100%;
+  padding:14px;
+  border:none;
+  border-radius:50px;
+  background: linear-gradient(45deg,#ff4da6,#ff1a75);
+  color:white;
+  font-size:16px;
+  cursor:pointer;
+  transition:0.3s;
+  box-shadow:0 6px 20px rgba(0,0,0,0.4);
+}
+
+button:hover{
+  transform:scale(1.05);
+}
+
+/* 🔥 RGB TEXT (NO SHADOW / NO GLOW) */
+.rgb-text{
+  font-weight:700;
+  font-size:15px;
+  animation: rgbColor 3s linear infinite;
+}
+
+/* RGB animation only */
+@keyframes rgbColor{
+  0%{color: rgb(255,0,0);}
+  16%{color: rgb(255,165,0);}
+  33%{color: rgb(255,255,0);}
+  50%{color: rgb(0,255,0);}
+  66%{color: rgb(0,255,255);}
+  83%{color: rgb(0,0,255);}
+  100%{color: rgb(255,0,255);}
+}
+
+/* follow */
+.follow{
+  margin-top:20px;
+  text-align:center;
+}
+
+/* facebook button */
+.fb{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  margin-top:10px;
+  padding:8px 15px;
+  border-radius:30px;
+  background:#1877f2;
+  color:#fff;
+  text-decoration:none;
+}
+
+/* footer */
+footer{
+  text-align:center;
+  color:#ccc;
+  margin-top:15px;
+  font-size:12px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="title">
+🌸 পহেলা বৈশাখের শুভেচ্ছা পোস্টার তৈরি করুন 🌸
+</div>
+
+<div class="box" id="copyText">
+Design a high-quality, vibrant Bengali New Year (Pohela Boishakh) greeting poster (1080x1350, 4:5 ratio).
+Use the uploaded photo of the person exactly as it is:
+keep the face, skin tone, expression, and clothing completely unchanged
+no retouching, no cartoon effect, no color grading on the person
+place the person on the RIGHT side with soft natural shadow blending
+Top (small elegant calligraphy font, gold or deep red color): "বিসমিল্লাহির রহমানির রহিম"
+Background:
+smooth festive gradient (yellow → orange → warm cream)
+add soft glowing light flares and subtle festive sparkles
+include blurred balloons and light bokeh for depth
+Traditional Bengali Elements (modern style, not cluttered):
+stylish alpana patterns (white + soft red)
+colorful kites (minimal, floating effect)
+dhol (drum) with soft shadow
+subtle floral ornaments and decorative swirls
+Typography Style:
+use modern Bengali artistic fonts with gradient fills (red, orange, yellow mix)
+add slight glow or shadow for premium look
+Text Layout:
+Below top line (center aligned, medium font): "নতুন দিনের আলোয় রঙিন হোক জীবনের প্রতিটি স্বপ্ন"
+Main Title (large, artistic, eye-catching font): "এসো হে বৈশাখ" "শুভ নববর্ষ"
+Middle Text (clean, smaller font): "বাংলা নববর্ষ উপলক্ষে দেশ ও দেশের বাহিরে থাকা সকলকে জানাই আন্তরিক শুভেচ্ছা"
+Highlight Box (center, soft rounded shape with light gradient background): "বাংলা নববর্ষের"
+Big Bold Text (deep red / gradient red-orange, slightly embossed effect): "শুভেচ্ছা"
+Bottom Center Section:
+add a stylish ribbon or rounded badge with soft shadow
+background color: deep orange/red gradient
+Name: "সবুজ মিয়া শুভ "
+Designation: "সোশ্যাল মিডিয়া সার্ভিস প্রোভাইডার"
+Style & Finishing:
+clean, balanced, and modern layout
+vibrant festive mood but not overcrowded
+soft shadows and depth effects
+high resolution, print-ready quality
+ensure the person blends naturally with background but remains fully unchanged
+</div>
+
+<button onclick="copyText()">📋 প্রমট কপি করুন</button>
+
+<div class="follow">
+<span class="rgb-text">
+এ ধরনের আরো টিপস পেতে আমার ফেসবুক প্রোফাইলটি ফলো করুন 
+</span><br>
+
+<a class="fb" href="https://www.facebook.com/sm.shuvo02" target="_blank">
+📘 Facebook Profile
+</a>
+</div>
+
+<footer>© sobuj mia shuvo</footer>
+
+</div>
+
+<script>
+function copyText(){
+  let text = document.getElementById("copyText").innerText;
+  navigator.clipboard.writeText(text);
+  alert("✅ প্রমট কপি হয়েছে!");
+}
+</script>
+
+</body>
+</html>
